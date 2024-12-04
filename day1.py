@@ -24,5 +24,6 @@ def part2() -> int:
     test = 0
     for x in arr1:    
         if x in arr2:
-            test += (x*arr2.count(x))    
-part2()
+            test += (x*arr2.count(x))
+    return test
+print(part2())
